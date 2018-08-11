@@ -11,7 +11,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class ProductsService {
-  private productsUrl = 'http://192.168.1.105:1739/productsApi/products';  // URL to web api
+  private productsUrl = 'http://192.168.1.102:1739/productsApi/products';  // URL to web api
 
   constructor(private http: HttpClient) { }
 
