@@ -11,7 +11,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class UsersService {
-  private usersUrl = 'http://192.168.1.105:1739/usersApi/users';  // URL to web api
+  private usersUrl = 'http://192.168.1.101:1739/usersApi/users';  // URL to web api
 
   constructor(private http: HttpClient) { }
 
