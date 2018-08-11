@@ -1,0 +1,41 @@
+<app-header></app-header>
+<br><br><br><br>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active">
+              <button class="dashButton" mat-button routerLink="/register"><mat-icon>view_quilt</mat-icon>Dashboard</button>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <button class="dashButton" mat-button routerLink="/register"><mat-icon>person_add</mat-icon>Register</button>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <button class="dashButton" mat-button routerLink="/login"><mat-icon>person</mat-icon>Login</button>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <button class="dashButton" mat-button routerLink="/usersView"><mat-icon>person_outline</mat-icon>Users view</button>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <button class="dashButton" mat-button routerLink="/productsView"><mat-icon>shopping_cart</mat-icon>Products view</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

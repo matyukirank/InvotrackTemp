@@ -1,0 +1,9 @@
+table {
+  width: 100%;
+}
+
+.table_container {
+  max-width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}

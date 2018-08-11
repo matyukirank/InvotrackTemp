@@ -1,0 +1,16 @@
+{
+  "name": "invotrack-server",
+  "version": "1.0.0",
+  "description": "express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Nigel Matyukira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7"
+  }
+}

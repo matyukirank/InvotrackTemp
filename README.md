@@ -1,2 +1,3 @@
-# InvotrackTemp
-temp shift to github
+# Invotrack
+
+Invoicing and employee tracking according to sales
