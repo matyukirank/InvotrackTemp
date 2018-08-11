@@ -24,6 +24,7 @@ import { ClientsService } from './services/clients.service';
 import { ProductsService } from './services/products.service';
 import { InvoicesService } from './services/invoices.service';
 import { HeaderComponent } from './header/header.component';
+import { ClientsViewComponent } from './clients-view/clients-view.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,8 @@ import { HeaderComponent } from './header/header.component';
     LoginComponent,
     UsersViewComponent,
     ProductsViewComponent,
-    HeaderComponent
+    HeaderComponent,
+    ClientsViewComponent
   ],
   imports: [
     BrowserModule,
