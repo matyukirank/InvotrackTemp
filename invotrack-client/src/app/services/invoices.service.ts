@@ -11,7 +11,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class InvoicesService {
-  private invoicesUrl = 'http://192.168.1.105:1739/invoicesApi/invoices';  // URL to web api
+  private invoicesUrl = 'http://192.168.1.101:1739/invoicesApi/invoices';  // URL to web api
 
   constructor(private http: HttpClient) { }
 

@@ -16,6 +16,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import {MatSelectModule} from '@angular/material/select';
 
 // services
 import { UsersService } from './services/users.service';
@@ -24,6 +25,8 @@ import { ClientsService } from './services/clients.service';
 import { ProductsService } from './services/products.service';
 import { InvoicesService } from './services/invoices.service';
 import { HeaderComponent } from './header/header.component';
+import { ProductsNewComponent } from './products-new/products-new.component';
+import { ClientNewComponent } from './client-new/client-new.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +34,9 @@ import { HeaderComponent } from './header/header.component';
     LoginComponent,
     UsersViewComponent,
     ProductsViewComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProductsNewComponent,
+    ClientNewComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +49,9 @@ import { HeaderComponent } from './header/header.component';
     HttpClientModule,
     MatCheckboxModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule
+
   ],
   providers: [
     UsersService,
